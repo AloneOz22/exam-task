@@ -1,0 +1,4 @@
+﻿  stack_ex.cpp
+C:\Users\TEACHER\Examples\Examples\stack_ex.cpp(81,34): warning C4101: exception: неиспользованная локальная переменная
+C:\Users\TEACHER\Examples\Examples\stack_ex.cpp(122,34): warning C4101: exception: неиспользованная локальная переменная
+  Examples.vcxproj -> C:\Users\TEACHER\Examples\x64\Debug\Examples.exe

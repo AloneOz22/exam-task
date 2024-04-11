@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{f922a6e4-95f9-438c-91f7-4363a6706791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIFO/LIFO">
+      <UniqueIdentifier>{b84f367c-279b-41b9-b8b8-1f371c43a388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binary tree">
+      <UniqueIdentifier>{e68c0332-ccc9-466c-b545-5482ad6ab57d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="integral.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="array_and_window.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="my_list.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_ex.cpp">
+      <Filter>FIFO/LIFO</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_tree.cpp">
+      <Filter>Binary tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="node.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="my_list.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_tree.hpp">
+      <Filter>Binary tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
