@@ -22,3 +22,7 @@ bool binary_tree::search(double data)
 {
 	return true;
 }
+
+void changes() {
+
+}
